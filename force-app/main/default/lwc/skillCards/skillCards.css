@@ -5,6 +5,9 @@
     border-radius: 5px;
     padding: 20px;
   }
+  h1{
+    font-size: 22px;
+  }
   
   .card {
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -16,11 +19,12 @@
     /* Add rounded corners to the top left and the top right corner of the image */
     img {
       border-radius: 5px 5px 0 0;
+      padding: 33px;
     }
   
     .text-container {
-      padding: 8px;
-      margin: 0 8px;
+      padding: 22px;
+    
     }
   
     .text-container h4 {
@@ -35,7 +39,7 @@
   
     h1 {
       text-align: center;
-      font-size: 48px;
+      font-size: 33px;
     }
   
     @media only screen and (min-width: 768px) {

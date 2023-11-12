@@ -1,8 +1,6 @@
-.container {
-  /*   max-width: 1200px;
-    margin: 0 auto; */
-    float: left;
-    width: 50%;
+.outer-container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 img {
@@ -32,12 +30,11 @@ button {
 
 @media only screen and (min-width: 768px) {
 
-   /*  .container {
+    .outer-container {
         display: flex;
-        flex-direction: row-reverse; 
-    } */
+        flex-direction: row-reverse;
+    }
     .container {
-        float: left;
         width: 50%;
     }
 
